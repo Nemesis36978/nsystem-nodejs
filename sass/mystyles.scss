@@ -1,0 +1,133 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+body {
+    background-color: $light;
+    height: 100vh;
+    transition: all 0.4s ease;
+}
+
+// Some styling 
+
+body .subtitle,
+body .title {
+    color: $dark;
+}
+
+body.dark {
+    background-color: $dark;
+    color: $light;
+}
+
+body.dark .subtitle,
+body.dark .title {
+    color: $light;
+}
+
+body.dark .hero-head {
+    background-color: $black-ter;
+}
+
+body.dark .s1 {
+    background-color: $grey-dark;
+}
+
+body.dark .s2 {
+    background-color: $dark;
+}
+
+//light
+
+body {
+    background-color: $white-ter;
+}
+
+body .hero-head {
+    background-color: $grey-light;
+}
+
+body .s1 {
+    background-color: $grey-lighter;
+}
+
+body .s2 {
+    background-color: $light;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    color: $dark;
+    padding: .8rem;
+    background: $light;
+    border-radius: 6px;
+}
+
+body.dark button {
+    background: $dark;
+    color: $light;
+}
+
+button.switchButton {
+    cursor: pointer;
+    border: none;
+    color: $black-ter;
+    padding: .8rem;
+    background: $grey-light;
+    border-radius: 6px;
+}
+
+body.dark button.switchButton {
+    background: $black-ter;
+    color: $light;
+}
+
+body.dark > section.hero.s2 > div > div > div {
+    background-color: $grey-dark;
+}
+
+body > section.hero.s2 > div > div > div {
+    background-color: $grey-lighter;
+}
+
+body.dark > section.hero.s2 > div > div > div > div > div > div.media-content {
+    color: $grey-lighter;
+}
+
+body > section.hero.s2 > div > div > div > div > div > div.media-content {
+    color: $grey-dark;
+}
+
+body.dark > section:nth-child(4) > div > div > div {
+    background-color: $grey-darker;
+    color: $grey-lighter;
+}
+
+body > section:nth-child(4) > div > div > div {
+    background-color: $white-ter;
+    color: $grey-darker;
+}
+
+body.dark > .footer {
+    background-color: $grey-darker;
+}
+
+body.dark .navbar-item {
+    color: $grey-lighter;
+}
+
+body.dark #navbarMenuHeroA {
+    background-color: $black-ter;
+}
+
+body #navbarMenuHeroA {
+    background-color: $grey-light;
+}

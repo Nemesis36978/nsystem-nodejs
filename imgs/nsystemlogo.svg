@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2285" height="264" viewBox="0 0 2285 264">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 350px;
+        text-anchor: middle;
+        font-family: "Sui Generis";
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: red;
+      }
+    </style>
+  </defs>
+  <text id="NSYSTEM" class="cls-1" x="1134.413" y="258"><tspan x="1134.413">N SYSTEM</tspan></text>
+  <text id="SYSTEM" class="cls-2" x="1382.354" y="257.5"><tspan x="1382.354">SYSTEM</tspan></text>
+</svg>
